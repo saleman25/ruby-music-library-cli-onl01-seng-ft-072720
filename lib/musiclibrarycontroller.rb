@@ -21,7 +21,7 @@ while input != "exit"
  
  input = gets.strip
  
- case 
+ case input
  
  
 end 
