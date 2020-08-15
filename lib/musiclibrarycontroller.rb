@@ -34,7 +34,7 @@ end
 
 def list_artists
   Artist.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) 
-  puts "#{i}. #{a.artist.name} "
+  puts "#{i}. #{artist.name} "
 end 
 end 
 
