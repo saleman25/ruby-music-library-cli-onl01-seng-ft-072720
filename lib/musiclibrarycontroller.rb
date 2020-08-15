@@ -27,7 +27,8 @@ def call
 end 
  
 def list_songs
+ counter = i+=1 
  sorted = Song.sorted 
-    puts "#{i}. "
+    puts "#{counter}. "
   
 end 
