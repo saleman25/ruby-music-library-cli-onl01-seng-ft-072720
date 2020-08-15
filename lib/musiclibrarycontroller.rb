@@ -75,7 +75,6 @@ def play_song
   
   if (1..Song.all.length).include?(input)
   song = Song.all.sort{ |a, b| a.name <=> b.name }[input - 1]
-  binding.pry
 end  
   puts "Playing #{song.name} by #{song.artist.name}" if song
 end 
