@@ -52,7 +52,9 @@ puts "Please enter the name of an artist:"
 input = gets.strip
 if artist = Artist.find_by_name(input)
   Artist.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |a, i|
-  puts "#{i}. #{a.name}"
+  puts "#{i}. #{a.name} - #{a.genre}"
 end
+end
+end 
 
 end
