@@ -6,7 +6,7 @@ end
 
 def call 
   
-input = ""
+#input = ""
   
 while input != "exit"  
  puts "Welcome to your music library!"
@@ -21,7 +21,7 @@ while input != "exit"
  
  input = gets.strip
  
- case input
+ #case input
  
  
 end 
