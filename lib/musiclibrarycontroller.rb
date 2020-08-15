@@ -35,9 +35,9 @@ end
 end  
 
 def list_artists(artist)
-  Artist.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |s, i|
+  Artist.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |name, i|
   binding.pry
-  puts "#{i}. #{s.artist.name} "
+  puts "#{i}. #{artist.name} "
  
 end 
 end 
