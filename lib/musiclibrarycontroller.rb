@@ -74,6 +74,8 @@ def play_song
   input = gets.strip
   
   if (1..Song.all.length).include?(input)
-  song = Song.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |s, i|
+  song = Song.all.sort{ |a, b| a.name <=> b.name }[input - 1]
+  
+  
 
 end
