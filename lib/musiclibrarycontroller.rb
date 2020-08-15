@@ -27,8 +27,16 @@ def call
 end 
  
 def list_songs
- counter = i+=1 
- sorted = Song.sorted 
-    puts "#{counter}. "
-  
+ Song.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |s, i|
+      puts "#{i}. #{s.artist.name} - #{s.name} - #{s.genre.name}"
+end
+end  
+
+
+
+
+
+
+
+
 end 
