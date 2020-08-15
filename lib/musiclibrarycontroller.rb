@@ -26,5 +26,7 @@ def call
  
 end 
  
+def list_songs
+  Song.each do |song|
   
 end 
