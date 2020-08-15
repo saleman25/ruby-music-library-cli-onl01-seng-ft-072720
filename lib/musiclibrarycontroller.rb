@@ -48,6 +48,7 @@ end
 end
 
 def list_songs_by_artists
+puts 
 input = gets.strip
 
 end
