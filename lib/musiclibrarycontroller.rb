@@ -48,7 +48,7 @@ end
 end
 
 def list_songs_by_artists
-puts 
+puts "Please enter the name of the artist:"
 input = gets.strip
 
 end
