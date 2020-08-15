@@ -73,6 +73,7 @@ def play_song
   puts "Which song number would you like to play?"
   input = gets.strip
   
-  if song = self.list_songs(input)
+  if (1..Song.all.length).include?(input)
+  song = self.list_songs(input)
 
 end
