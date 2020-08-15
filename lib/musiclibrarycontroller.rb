@@ -41,8 +41,8 @@ def list_artists
 end 
 end 
 
-def list_genres
-end  
+#def list_genres
+#end  
 
 
 
