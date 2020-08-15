@@ -50,9 +50,7 @@ end
 def list_songs_by_artists
 puts "Please enter the name of the artist:"
 input = gets.strip
-Song.create_by_filename
-binding.pry
-list_songs_by_artists
+
 end
 
 end
